@@ -22,5 +22,13 @@ $ docker run -d \
 	freedox/noip-update:latest
 ````
 
+Correct time in container: \
+For logging purposes you would want to set the correct time in the container.
+We link both timezone and localtime to the docker container as such:
+````
+	-v /etc/timezone:/etc/timezone:ro 
+	-v /etc/localtime:/etc/localtime:ro 
+````
+
 You can also download the script file and modify it yourself then run outside of Docker. \
 The only dependencies required are: curl and sleep (most Linux distros have these preinstalled)
