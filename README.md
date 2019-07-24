@@ -22,5 +22,5 @@ $ docker run -d \
 	freedox/noip-update:latest
 ````
 
-You can also download the script file and modify it yourself then run outside of Docker.
+You can also download the script file and modify it yourself then run outside of Docker. \
 The only dependencies required are: curl and sleep (most Linux distros have these preinstalled)
