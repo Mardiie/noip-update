@@ -2,7 +2,7 @@ https://hub.docker.com/r/freedox/noip-update
 
 About:
 
-This is a simple script to keep your No-IP.com Dynamic DNS hosts up to date. 
+This is a simple script to keep your No-IP.com Dynamic DNS hosts up to date. \
 What this does is:
 
 1. Check if you variables are set except for NOIP_INTERVAL since this has been set at 5 minutes by default.
