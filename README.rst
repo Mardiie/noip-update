@@ -1,5 +1,6 @@
 This is a simple script to keep your No-IP.com Dynamic DNS hosts up to date. 
 ----------
+I recommend using Docker for easy setup:
 
 .. image:: https://img.shields.io/docker/cloud/build/freedox/noip-update.svg
    :target: https://hub.docker.com/r/freedox/noip-update
