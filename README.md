@@ -1,4 +1,4 @@
-[https://hub.docker.com/r/freedox/noip-update]
+https://hub.docker.com/r/freedox/noip-update
 
 About:
 
