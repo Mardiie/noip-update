@@ -1,4 +1,4 @@
-.. image:: https://img.shields.io/docker/cloud/build/freedox/noip-update.svg   :alt: Docker Cloud Build Status
+\.. image:: https://img.shields.io/docker/cloud/build/freedox/noip-update.svg   :alt: Docker Cloud Build Status
    :target: https://hub.docker.com/r/mozilla/syncserver/ 
 
 About:
