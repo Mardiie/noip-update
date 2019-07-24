@@ -18,13 +18,13 @@ Run with Docker:
 -------------
 
     $ docker run -d \
-		-e NOIP_USER=<Your No-IP username or email> \
-		-e NOIP_PASSWORD=<Your No-IP password> \
-		-e NOIP_HOST=<Your No-IP host-name you want to update> \
-		-e NOIP_INTERVAL=<The update interval (default: 5 minutes)> \
-		-v /etc/timezone:/etc/timezone:ro \
-		-v /etc/localtime:/etc/localtime:ro \
-		freedox/noip-update:latest
+	-e NOIP_USER=<Your No-IP username or email> \
+	-e NOIP_PASSWORD=<Your No-IP password> \
+	-e NOIP_HOST=<Your No-IP host-name you want to update> \
+	-e NOIP_INTERVAL=<The update interval (default: 5 minutes)> \
+	-v /etc/timezone:/etc/timezone:ro \
+	-v /etc/localtime:/etc/localtime:ro \
+	freedox/noip-update:latest
 
 Correct time in container:
 ------------- 
