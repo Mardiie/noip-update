@@ -1,5 +1,5 @@
 This is a simple script to keep your No-IP.com Dynamic DNS hosts up to date. 
-================================
+----------
 
 .. image:: https://img.shields.io/docker/cloud/build/freedox/noip-update.svg   :alt: Docker Cloud Build Status
    :target: https://hub.docker.com/r/mozilla/syncserver/ 
@@ -30,8 +30,7 @@ To run the image with docker use the following command::
 
 Correct time in container:
 ------------- 
-|  For logging purposes you would want to set the correct time in the container.
-
+| For logging purposes you would want to set the correct time in the container.
 | We link both timezone and localtime to the docker container as such::
 
 		-v /etc/timezone:/etc/timezone:ro 
