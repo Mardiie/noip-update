@@ -31,7 +31,7 @@ To run the image with docker use the following command::
 Correct time in container:
 ------------- 
 | For logging purposes you would want to set the correct time in the container.
-| We link both timezone and localtime to the docker container as such::
+We link both timezone and localtime to the docker container as such::
 
 		-v /etc/timezone:/etc/timezone:ro 
 		-v /etc/localtime:/etc/localtime:ro 
