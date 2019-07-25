@@ -14,8 +14,6 @@ RUN	chmod u+x /home/noip/noip-update.sh
 
 ENV	NOIP_INTERVAL=5
 
-EXPOSE 	443
-
 USER	noip-user
 
 ENTRYPOINT	/bin/bash /home/noip/noip-update.sh
